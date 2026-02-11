@@ -1,0 +1,31 @@
+/* About Page */
+
+.section-padding {
+  padding: 5rem 0;
+}
+
+.about-hero {
+  background-size: cover;
+  background-position: center;
+  padding: 8rem 0;
+  position: relative;
+}
+
+.about-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(13, 110, 91, 0.9) 0%,
+    rgba(26, 35, 50, 0.85) 100%
+  );
+}
+
+.about-hero .container {
+  position: relative;
+  z-index: 1;
+}

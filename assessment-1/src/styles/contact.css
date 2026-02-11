@@ -1,0 +1,65 @@
+/* Contact Page */
+.contact-form {
+  background: white;
+  padding: 3rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control,
+.contact-form .form-select {
+  padding: 0.875rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  transition: all 0.3s ease;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 91, 0.15);
+}
+
+.contact-form label {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+}
+
+.contact-info-box {
+  background: linear-gradient(
+    135deg,
+    var(--primary-color) 0%,
+    var(--primary-dark) 100%
+  );
+  color: white;
+  padding: 3rem;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.contact-info-box h4 {
+  margin-bottom: 2rem;
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info-item i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: var(--accent-color);
+}
+
+.contact-info-item h6 {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.contact-info-item p {
+  margin-bottom: 0;
+  opacity: 0.9;
+}

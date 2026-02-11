@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+:root {
+  --primary-color: #0d6e5b;
+  --primary-dark: #095545;
+  --accent-color: #e8a838;
+  --text-dark: #1a2332;
+  --text-muted: #5a6778;
+  --bg-light: #f8f9fa;
+  --bg-cream: #faf8f5;
+}
+
+* {
+  font-family: "Lora", serif;
+}
+
+.navbar {
+  padding: 2rem 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-color) !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  color: var(--text-dark) !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--primary-color) !important;
+}
+
+/* header.css */
+.btn.btn-book {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn.btn-book:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+  color: white;
+}
