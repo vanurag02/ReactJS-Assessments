@@ -1,17 +1,23 @@
-import React, { Component } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
+import "../style/notfound.css";
 
-export class NotFound extends Component {
-  render() {
-    return (
-      <div className="text-center mt-5">
-        <h2>404 - Page Not Found</h2>
+function NotFound() {
+  return (
+    <div className="notfound-container">
+      <div className="notfound-box">
+        <h1 className="error-code">404</h1>
+        <h2 className="error-title">Page Not Found</h2>
+        <p className="error-text">
+          The page you are looking for does not exist or has been moved.
+        </p>
+
         <NavLink to="/" className="btn btn-primary mt-3">
           Back to Home
         </NavLink>
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default NotFound;

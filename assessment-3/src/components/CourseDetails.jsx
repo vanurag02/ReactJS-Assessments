@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Redirect } from "react-router-dom";
 
 export class CourseDetails extends Component {
   render() {
@@ -7,14 +7,7 @@ export class CourseDetails extends Component {
     const course = this.props.courses.find((c) => c.id === parseInt(id));
 
     if (!course) {
-      return (
-        <div className="text-center mt-5">
-          <h2>Course Not Found</h2>
-          <NavLink to="/" className="btn btn-secondary mt-3">
-            Back to Courses
-          </NavLink>
-        </div>
-      );
+      return <Redirect to="/notfound" />;
     }
 
     return (

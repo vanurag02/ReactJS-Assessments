@@ -1,0 +1,27 @@
+.notfound-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.notfound-box {
+  text-align: center;
+  padding: 40px;
+}
+
+.error-code {
+  font-size: 100px;
+  font-weight: 700;
+  color: #dc3545;
+}
+
+.error-title {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.error-text {
+  margin-top: 15px;
+  color: #6c757d;
+}
